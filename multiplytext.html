@@ -7,7 +7,11 @@ function repeatMe(){
   // Gets the value of the text field:
   var val = document.getElementById('inputField').value;
   // Writes the comment in the div with id "result":
-  document.getElementById('result').innerHTML = val+val+val+val+val+val+val+val+val+val;
+  var result = "";
+  for (var i=0; i<10;i++){
+    result +=val+"<br/>";
+  }
+    document.getElementById('result').innerHTML = result;
 }
 </script>
 
