@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>printMyArray</title>
+
+<script>
+
+function printMyArray(myArray){
+  var i = 0;
+  var result = "";
+
+  for(i=0; i <myArray.length; i++){
+  result + myArray[i]+"<br>";
+  }
+  return result+""
+
+
+</script>
+</head>
+<body>
+<script>
+var teachers = ["Luc", "Mathew", "Matti", "Sanna", "Anders", "Mauricette"];
+document.write(printMyArray(myArray));
+
+</script>
+
+</body>
+</html>
