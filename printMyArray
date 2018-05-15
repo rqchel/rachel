@@ -17,10 +17,12 @@ function printMyArray(myArray){
 
 </script>
 </head>
+
 <body>
 <script>
+<h1>PrintMyArray</h1>
 var teachers = ["Luc", "Mathew", "Matti", "Sanna", "Anders", "Mauricette"];
-document.write(printMyArray(myArray));
+document.write(printMyArray(teachers));
 
 </script>
 
