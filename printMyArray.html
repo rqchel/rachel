@@ -7,11 +7,16 @@
 
 function myArray(){
 var peopleNames = ["Luc", "Mathew", "Matti", "Sanna", "Anders", "Mauricette"];
-
+var result = "";
 for (var i=0; i<peopleNames.length; i++){
-var result +=peopleNames[i];
+
+ if (i===peopleNames.length-1);
+ return "and"
+else{
+ result +=peopleNames[i] + ",";
 }
- return result;
+
+ }
 }
 </script>
 </head>
