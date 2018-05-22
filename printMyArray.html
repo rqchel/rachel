@@ -6,17 +6,19 @@
 <script>
 
 function myArray(){
-var peopleNames = ["Luc", "Mathew", "Matti", "Sanna", "Anders", "Mauricette"];
-var result = "";
-for (var i=0; i<peopleNames.length; i++){
+  var peopleNames = ["Luc", "Mathew", "Matti", "Sanna", "Anders", "Mauricette"];
+  var result = "";
+  for (var i=0; i<peopleNames.length; i++){
 
- if (i===peopleNames.length-1);
- return "and"
-else{
- result +=peopleNames[i] + ",";
-}
 
- }
+    if (i===peopleNames.length-2){
+      result +=peopleNames[i] + " and ";
+    }
+    else{
+      result +=peopleNames[i] + ",";
+    }
+  }
+  return result;
 }
 </script>
 </head>
